@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_store"
+            android:icon="@drawable/nav_store"
+            android:title="Online Stores" />
+
+        <item
+            android:id="@+id/nav_social_media"
+            android:icon="@drawable/nav_social_media"
+            android:title="Social Network &amp; Email" />
+
+        <item
+            android:id="@+id/nav_movie"
+            android:icon="@drawable/nav_movie"
+            android:title="Movie Tickets" />
+
+        <item
+            android:id="@+id/nav_recharge"
+            android:icon="@drawable/nav_recharge"
+            android:title="Recharge" />
+
+
+        <item
+            android:id="@+id/nav_travel"
+            android:icon="@drawable/nav_travel"
+            android:title="Cabs and Hotels" />
+
+        <item
+            android:id="@+id/nav_e_learning"
+            android:icon="@drawable/nav_e_learning"
+            android:title="E-learning" />
+
+        <item
+            android:id="@+id/nav_entertainment"
+            android:icon="@drawable/nav_entertainment"
+            android:title="Entertainment" />
+
+        <item
+            android:id="@+id/nav_free_lancing"
+            android:icon="@drawable/nav_free_lancing"
+            android:title="Free Lancing" />
+
+        <item
+            android:id="@+id/nav_sports"
+            android:icon="@drawable/nav_sport"
+            android:title="Sports" />
+
+        <item
+            android:id="@+id/nav_news"
+            android:icon="@drawable/nav_news"
+            android:title="News" />
+
+
+        <item
+            android:id="@+id/nav_medicare"
+            android:icon="@drawable/nav_medicare"
+            android:title="Medicare" />
+
+    </group>
+    <item android:title="College Contact">
+     <menu>
+
+            <item
+                android:id="@+id/nav_college_contact"
+                android:icon="@drawable/nav_college_contact"
+                android:title="College Contacts" />
+     </menu>
+    </item>
+        <item android:title="Other">
+        <menu>
+
+            <item
+                android:id="@+id/nav_suggestion"
+                android:icon="@drawable/nav_suggestion"
+                android:title="Suggestions/Feedback" />
+
+            <item
+                android:id="@+id/nav_about"
+                android:icon="@drawable/nav_about"
+                android:title="About Us" />
+
+
+            <item
+                android:id="@+id/nav_exit"
+                android:icon="@drawable/nav_exit"
+                android:title="Exit" />
+
+        </menu>
+    </item>
+
+
+</menu>
